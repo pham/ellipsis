@@ -1,7 +1,7 @@
+(function($) {
 $.fn.ellipsis = function() {
 	return this.each(function() {
 		var _orig_h = $(this).height(),
-			_orig_ws = $(this).css('whiteSpace'),
 			_str = $(this).html(),
 			_max, _i;
 
@@ -27,3 +27,4 @@ $.fn.ellipsis = function() {
 		return true;
 	});
 };
+}(jQuery));
